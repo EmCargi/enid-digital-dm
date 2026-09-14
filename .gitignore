@@ -1,0 +1,25 @@
+# Secrets / local config
+.env
+
+# Runtimes / reinstalled deps
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Regenerable output
+output/
+chroma_index/
+
+# OS / editor files
+.DS_Store
+*.swp
+*.swo
+*~
+*.bak
+
+# Obsidian caches
+.obsidian/
+**/.obsidian/workspace*.json
+**/.obsidian/cache
